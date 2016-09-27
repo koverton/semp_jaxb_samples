@@ -1,0 +1,25 @@
+<rpc-reply semp-version="soltr/7_2VMR">
+  <rpc>
+    <show>
+      <process>
+        <processes>
+          <process>
+            <process-id></process-id>
+            <user-name></user-name>
+            <priority></priority>
+            <nice-value></nice-value>
+            <virtual-memory-size></virtual-memory-size>
+            <resident-set-size></resident-set-size>
+            <process-state></process-state>
+            <cpu-usage></cpu-usage>
+            <memory-usage></memory-usage>
+            <cpu-time></cpu-time>
+            <cpu></cpu>
+            <command></command>
+          </process>
+        </processes>
+      </process>
+    </show>
+  </rpc>
+<execute-result code="ok"/>
+</rpc-reply>

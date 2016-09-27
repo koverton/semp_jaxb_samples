@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply semp-version="soltr/7_2VMR">
+    <rpc>
+        <show>
+            <bridge>
+                <bridges>
+                    <bridge>
+                        <bridge-name>AcmeBridge</bridge-name>
+                        <local-vpn-name>ACME</local-vpn-name>
+                        <connected-remote-vpn-name>ACME_REMOTE</connected-remote-vpn-name>
+                        <connected-remote-router-name></connected-remote-router-name>
+                        <connected-via-addr>127.0.0.1:55555</connected-via-addr>
+                        <connected-via-interface></connected-via-interface>
+                        <redundancy>primary</redundancy>
+                        <admin-state>Disabled</admin-state>
+                        <connection-establisher>NotApplicable</connection-establisher>
+                        <inbound-operational-state>Shutdown</inbound-operational-state>
+                        <inbound-operational-reason>Bridge disabled</inbound-operational-reason>
+                        <outbound-operational-state>NotApplicable</outbound-operational-state>
+                        <queue-operational-state>NotApplicable</queue-operational-state>
+                        <connection-uptime-in-seconds>0</connection-uptime-in-seconds>
+                        <compressed>-</compressed>
+                        <num-retry-attempts>0</num-retry-attempts>
+                        <retry-count>0</retry-count>
+                        <next-retry-in-seconds>0</next-retry-in-seconds>
+                        <retry-delay-in-seconds>3</retry-delay-in-seconds>
+                        <max-ttl>8</max-ttl>
+                        <dto-priority>P1</dto-priority>
+                        <client-name></client-name>
+                        <ttl-exceeded-event-raised>false</ttl-exceeded-event-raised>
+                        <num-local-subscriptions>0</num-local-subscriptions>
+                        <num-remote-subscriptions>0</num-remote-subscriptions>
+                        <remote-message-vpn-list>
+                        </remote-message-vpn-list>
+                    </bridge>
+                </bridges>
+            </bridge>
+        </show>
+    </rpc>
+    <execute-result code="ok"/>
+</rpc-reply>

@@ -1,0 +1,21 @@
+<rpc-reply semp-version="soltr/7_2VMR">
+  <rpc>
+    <show>
+      <log>
+        <event>
+          <log-entry>2015-08-07T10:59:40-0400 &lt;local3.notice&gt; demo-tr event: SYSTEM: SYSTEM_AUTHENTICATION_SESSION_CLOSED: - - SEMP session 192.168.130.82:35048 closed for user admin (admin)</log-entry>
+          <log-entry>2015-08-07T10:59:40-0400 &lt;local3.notice&gt; demo-tr event: SYSTEM: SYSTEM_AUTHENTICATION_SESSION_OPENED: - - SEMP session 192.168.130.82:35049 internal authentication opened for user admin (admin)</log-entry>
+          <log-entry>2015-08-07T10:59:40-0400 &lt;local3.notice&gt; demo-tr event: SYSTEM: SYSTEM_AUTHENTICATION_SESSION_CLOSED: - - SEMP session 192.168.130.82:35049 closed for user admin (admin)</log-entry>
+          <log-entry>2015-08-07T10:59:41-0400 &lt;local3.notice&gt; demo-tr event: SYSTEM: SYSTEM_AUTHENTICATION_SESSION_OPENED: - - SEMP session 192.168.130.82:35050 internal authentication opened for user admin (admin)</log-entry>
+          <log-entry>2015-08-07T10:59:41-0400 &lt;local3.warning&gt; demo-tr event: CLIENT: CLIENT_CLIENT_BIND_FAILED: SreeVPN-B #bridge/remote/Sree-A-B/v:demo-tr/4984/3 Client (520) #bridge/remote/Sree-A-B/v:demo-tr/4984/3 username SreeB Bind to Durable Queue sree/test/queue1 AccessType(Exclusive), Quota(4000MB), MaxMessageSize(10000000B), AllOthersPermission(Read|Consume|Modify-Topic), RespectTTL(No), RejectMsgToSenderOnDiscard(Yes), GrantedPermission(Read|Consume|Modify-Topic|Delete), FlowType(Consumer), ForwardingMode(StoreAndForward), MaxRedelivery(0), TransactedSessionId(-1) failed, reason: Permission Not Allowed</log-entry>
+          <log-entry>2015-08-07T10:59:41-0400 &lt;local3.info&gt; demo-tr event: CLIENT: CLIENT_CLIENT_CONNECT: mule_vpn #bridge/local/AWS_DEMOTR/demo-tr/4986/79 Client (85) #bridge/local/AWS_DEMOTR/demo-tr/4986/79 username #client-username WebSessionId (N/A) connected to 52.0.64.239:55555 from 192.168.130.61:56137 version() platform() SslVersion() SslCipher() APIuser() authScheme()</log-entry>
+          <log-entry>2015-08-07T10:59:41-0400 &lt;local3.notice&gt; demo-tr event: VPN: VPN_BRIDGING_LINK_REJECTED: mule_vpn - Message VPN (314) mule_vpn Bridge AWS_DEMOTR from  VPN mule_vpn rejected: Already Exists</log-entry>
+          <log-entry>2015-08-07T10:59:41-0400 &lt;local3.info&gt; demo-tr event: CLIENT: CLIENT_CLIENT_DISCONNECT: mule_vpn #bridge/local/AWS_DEMOTR/demo-tr/4986/79 Client (85) #bridge/local/AWS_DEMOTR/demo-tr/4986/79 username #client-username WebSessionId (N/A) reason(Peer TCP Closed) final statistics - dp(277773, 277791, 0, 0, 277773, 277791, 12222012, 76948107, 0, 0, 12222012, 76948107, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0) conn(0, 0, 0.0.0.0:0, CLSWT, 0, 0, 0) zip(0, 0, 0, 0, 0.00, 0.00, 0, 0, 0, 0, 0, 0, 0, 0) web(0, 0, 0, 0, 0, 0, 0), SslVersion(), SslCipher()</log-entry>
+          <log-entry>2015-08-07T10:59:41-0400 &lt;local3.notice&gt; demo-tr event: SYSTEM: SYSTEM_AUTHENTICATION_SESSION_CLOSED: - - SEMP session 192.168.130.82:35050 closed for user admin (admin)</log-entry>
+          <log-entry>2015-08-07T10:59:41-0400 &lt;local3.notice&gt; demo-tr event: SYSTEM: SYSTEM_AUTHENTICATION_SESSION_OPENED: - - SEMP session 192.168.130.82:35051 internal authentication opened for user admin (admin)</log-entry>
+        </event>
+      </log>
+    </show>
+  </rpc>
+<execute-result code="ok"/>
+</rpc-reply>

@@ -1,0 +1,189 @@
+<rpc-reply semp-version="soltr/7_2VMR">
+  <rpc>
+    <show>
+      <cache-instance>
+        <cache-instances>
+          <cache-instance>
+            <name>matsCacheInstance</name>
+            <cache-cluster>matsCacheCluster</cache-cluster>
+            <distributed-cache>matscache</distributed-cache>
+            <message-vpn>mat</message-vpn>
+            <remote>
+              <status>
+                <oper-status>Up</oper-status>
+                <cache-software-version>4.4.9</cache-software-version>
+                <cache-software-build-date>May  7 2009 15:11:59</cache-software-build-date>
+                <sdk-version>4.4.25</sdk-version>
+                <sdk-platform>Linux26-x86_64_opt</sdk-platform>
+                <user-id>'root'  Computer: 'solcache-demo'  Process ID: 3289</user-id>
+                <plugin-description></plugin-description>
+                <plugin-status></plugin-status>
+                <connected-to-host>host '192.168.130.61', IP 192.168.130.61:55555</connected-to-host>
+                <client>solcache-demo/3289/#00010001</client>
+                <current-local-time>Aug  7 2015 08:19:49 EDT</current-local-time>
+                <process-start-time>Jun 23 2015 14:22:41 EDT</process-start-time>
+                <last-connection-uptime>Jul 28 2015 13:33:45 EDT</last-connection-uptime>
+                <last-connection-downtime>Never</last-connection-downtime>
+                <total-memory-utilization>101</total-memory-utilization>
+                <cpu-utilization>0</cpu-utilization>
+                <heartbeat-requests-sent>85958</heartbeat-requests-sent>
+                <heartbeat-responses-received>85958</heartbeat-responses-received>
+                <config-updates-received>12</config-updates-received>
+                <invalid-requests-received>0</invalid-requests-received>
+                <cache-requests-received>0</cache-requests-received>
+                <cache-requests-local-topics>0</cache-requests-local-topics>
+                <request-timeout>0</request-timeout>
+                <cache-responses>
+                  <cache-response>
+                    <name>OK</name>
+                    <count>0</count>
+                  </cache-response>
+                  <cache-response>
+                    <name>No Match</name>
+                    <count>0</count>
+                  </cache-response>
+                  <cache-response>
+                    <name>Timeout</name>
+                    <count>0</count>
+                  </cache-response>
+                </cache-responses>
+                <lost-message>Yes</lost-message>
+                <last-lost-message-indication-sent>Jun 24 2015 01:07:34 EDT</last-lost-message-indication-sent>
+                <last-lost-message-clear-received>Never</last-lost-message-clear-received>
+                <last-clear-stats-received>Never</last-clear-stats-received>
+                <last-backup-of-cached-messages>
+                  <last-successful-backup-time>Never</last-successful-backup-time>
+                  <last-backup-status>N/A</last-backup-status>
+                  <last-backup-filename>N/A</last-backup-filename>
+                </last-backup-of-cached-messages>
+                <last-restore-of-cached-messages>
+                  <last-successful-restore-time>Never</last-successful-restore-time>
+                  <last-restore-status>N/A</last-restore-status>
+                  <last-restore-filename>N/A</last-restore-filename>
+                </last-restore-of-cached-messages>
+                <stats>
+                  <stat>
+                    <name>Incoming Data Msg (1 sec sample) (msgs/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Incoming Data Msg (60 sec sample) (msgs/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Incoming Data Byte (1 sec sample) (bytes/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Incoming Data Byte (60 sec sample) (bytes/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Outgoing Data Msg (1 sec sample) (msgs/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Outgoing Data Msg (60 sec sample) (msgs/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Cache Request (1 sec sample) (msgs/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Cache Request (60 sec sample) (msgs/s)</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Cache Request Queue Depth</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Cached Topics</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Local Cached Topics</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Messages Cached</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Local Cached Messages</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Message Bytes Cached</name>
+                    <current-value>0</current-value>
+                    <peak-value>0</peak-value>
+                  </stat>
+                  <stat>
+                    <name>Messages Cached (cumulative)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Message Bytes Cached (cumulative)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Message Lost Indications Rxd</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Messages Discarded (since last lost clear)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Parse Error (lost message)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Too Big Error (lost message)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Max Topics (lost message)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Max Memory (lost message)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Cluster Sync Fail (lost message)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>Cluster Sync Suspect (lost message)</name>
+                    <current-value>0</current-value>
+                  </stat>
+                  <stat>
+                    <name>P2P Topic Filter</name>
+                    <current-value>0</current-value>
+                  </stat>
+                </stats>
+              </status>
+            </remote>
+            <return-code>ok</return-code>
+          </cache-instance>
+        </cache-instances>
+      </cache-instance>
+    </show>
+  </rpc>
+<execute-result code="ok"/>
+</rpc-reply>

@@ -1,0 +1,11 @@
+<rpc-reply semp-version="soltr/7_2VMR">
+  <rpc>
+    <show>
+      <log>
+        <event>
+        </event>
+      </log>
+    </show>
+  </rpc>
+<execute-result code="ok"/>
+</rpc-reply>

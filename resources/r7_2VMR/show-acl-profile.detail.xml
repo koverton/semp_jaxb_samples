@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply semp-version="soltr/7_2VMR">
+    <rpc>
+        <show>
+            <acl-profile>
+                <acl-profiles>
+                    <acl-profile>
+                        <profile-name>deleteme</profile-name>
+                        <vpn-name>testvpn</vpn-name>
+                        <client-connect>
+                            <allow-default-action>false</allow-default-action>
+                            <num-exceptions>2</num-exceptions>
+                            <exceptions>
+                                <exception>195.194.193.192/24</exception>
+                                <exception>199.198.197.196/24</exception>
+                            </exceptions>
+                        </client-connect>
+                        <publish-topic>
+                            <allow-default-action>false</allow-default-action>
+                            <num-exceptions>2</num-exceptions>
+                            <exceptions>
+                                <exception>pub/topic/lock1</exception>
+                                <exception>pub/topic/lock2</exception>
+                            </exceptions>
+                        </publish-topic>
+                        <subscribe-topic>
+                            <allow-default-action>false</allow-default-action>
+                            <num-exceptions>2</num-exceptions>
+                            <exceptions>
+                                <exception>sub/topic/lock1</exception>
+                                <exception>sub/topic/lock2</exception>
+                            </exceptions>
+                        </subscribe-topic>
+                    </acl-profile>
+                </acl-profiles>
+            </acl-profile>
+        </show>
+    </rpc>
+    <execute-result code="ok"/>
+</rpc-reply>

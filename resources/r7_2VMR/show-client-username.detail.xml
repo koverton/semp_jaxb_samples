@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rpc-reply semp-version="soltr/7_2VMR">
+    <rpc>
+        <show>
+            <client-username>
+                <client-usernames>
+                    <client-username>
+                        <client-username>deleteme</client-username>
+                        <message-vpn>temp</message-vpn>
+                        <enabled>true</enabled>
+                        <guaranteed-endpoint-permission-override>false</guaranteed-endpoint-permission-override>
+                        <profile>default</profile>
+                        <acl-profile>default</acl-profile>
+                        <password-configured>false</password-configured>
+                        <subscription-manager>true</subscription-manager>
+                        <num-clients>0</num-clients>
+                        <num-clients-service-smf>0</num-clients-service-smf>
+                        <num-clients-service-web>0</num-clients-service-web>
+                        <max-connections>9000</max-connections>
+                        <max-connections-service-smf>9000</max-connections-service-smf>
+                        <max-connections-service-web>9000</max-connections-service-web>
+                        <num-endpoints>0</num-endpoints>
+                        <max-endpoints>16000</max-endpoints>
+                    </client-username>
+                </client-usernames>
+            </client-username>
+        </show>
+    </rpc>
+    <execute-result code="ok"/>
+</rpc-reply>

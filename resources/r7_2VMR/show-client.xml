@@ -1,0 +1,4133 @@
+<rpc-reply semp-version="soltr/7_2VMR">
+  <rpc>
+    <show>
+      <client>
+        <primary-virtual-router>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/#CFGSYNC_REPLICATION_BRIDGE/demo-tr/4986/56</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>#config-sync</message-vpn>
+            <description>Local Bridge (#CFGSYNC_REPLICATION_BRIDGE)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/#MSGVPN_REPLICATION_BRIDGE/demo-tr/4986/55</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>TNGEMEA1</message-vpn>
+            <description>Local Bridge (#MSGVPN_REPLICATION_BRIDGE)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/AWS_DEMOTR/demo-tr/4986/79</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>mule_vpn</message-vpn>
+            <description>Local Bridge (AWS_DEMOTR)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/AmdocsBridge/demo-tr/4986/46</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>AMDOCS</message-vpn>
+            <description>Local Bridge (AmdocsBridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/BRIDGE_SEND_DATA_FROM_BETA_TO_ALPHA/demo-tr/4986/61</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>alphaVPN</message-vpn>
+            <description>Local Bridge (BRIDGE_SEND_DATA_FROM_BETA_TO_ALPHA)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/BRIDGE_SEND_DATA_FROM_CALVIN_TO_ALPHA/demo-tr/4986/62</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>alphaVPN</message-vpn>
+            <description>Local Bridge (BRIDGE_SEND_DATA_FROM_CALVIN_TO_ALPHA)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/BT1toBT2/demo-tr/4986/47</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>BT2</message-vpn>
+            <description>Local Bridge (BT1toBT2)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/Gaurav.T.Sumeet/demo-tr/4986/57</name>
+            <profile>GauravProfile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>Training_Gaurav</message-vpn>
+            <description>Local Bridge (Gaurav.T.Sumeet)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/MikeOB_VPN_Bridge/demo-tr/4986/50</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>MikeOB_DB_VPN_Gateway</message-vpn>
+            <description>Local Bridge (MikeOB_VPN_Bridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/SAN_BRG1/demo-tr/4986/51</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>SAN_MSG_VPN1</message-vpn>
+            <description>Local Bridge (SAN_BRG1)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/SAN_BRG2/demo-tr/4986/52</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>SAN_MSG_VPN2</message-vpn>
+            <description>Local Bridge (SAN_BRG2)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/SampleBridge/demo-tr/4986/83</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>splitvpn</message-vpn>
+            <description>Local Bridge (SampleBridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/SampleBridge1/demo-tr/4986/84</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>splitvpn</message-vpn>
+            <description>Local Bridge (SampleBridge1)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/SampleBridge2/demo-tr/4986/85</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>splitvpn</message-vpn>
+            <description>Local Bridge (SampleBridge2)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/Sree-A-B/demo-tr/4986/53</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>SreeVPN-A</message-vpn>
+            <description>Local Bridge (Sree-A-B)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/Sree-B-A/demo-tr/4986/54</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>SreeVPN-B</message-vpn>
+            <description>Local Bridge (Sree-B-A)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/Sumeet.T.Gaurav/demo-tr/4986/58</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>Training_Sumeet</message-vpn>
+            <description>Local Bridge (Sumeet.T.Gaurav)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/azurebridge/demo-tr/4986/63</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>azure</message-vpn>
+            <description>Local Bridge (azurebridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/b1_test/demo-tr/4986/49</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>HKJCTraining</message-vpn>
+            <description>Local Bridge (b1_test)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/bisam/demo-tr/4987/6</name>
+            <profile>sam3</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>sam3</message-vpn>
+            <description>Local Bridge (bisam)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/bisam2/demo-tr/4987/8</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>sam4</message-vpn>
+            <description>Local Bridge (bisam2)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/bridge1/demo-tr/4986/48</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>DEMO_video</message-vpn>
+            <description>Local Bridge (bridge1)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/brsam1/demo-tr/4987/3</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>sam1</message-vpn>
+            <description>Local Bridge (brsam1)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/coh-from2coh-to/demo-tr/4986/65</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>coh-rep-to</message-vpn>
+            <description>Local Bridge (coh-from2coh-to)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/coher1ToCoher2/demo-tr/4986/67</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>coherence2</message-vpn>
+            <description>Local Bridge (coher1ToCoher2)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/coher2ToCoher1/demo-tr/4986/66</name>
+            <profile>coherence_cp</profile>
+            <num-subscriptions>3</num-subscriptions>
+            <message-vpn>coherence1</message-vpn>
+            <description>Local Bridge (coher2ToCoher1)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/gjwbridge/demo-tr/4986/68</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>gjw</message-vpn>
+            <description>Local Bridge (gjwbridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/hansbridge/demo-tr/4986/59</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>aaron</message-vpn>
+            <description>Local Bridge (hansbridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/hansbridge/demo-tr/4986/69</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>hans_vpn</message-vpn>
+            <description>Local Bridge (hansbridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/hanstest/demo-tr/4986/70</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>hans_vpn</message-vpn>
+            <description>Local Bridge (hanstest)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/heinzBridge/demo-tr/4986/71</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>heinzvpn</message-vpn>
+            <description>Local Bridge (heinzBridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/hello_bridge/demo-tr/4986/64</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>calvin-test-vpn</message-vpn>
+            <description>Local Bridge (hello_bridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/hkjc_bridge_test/demo-tr/4986/75</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>lab</message-vpn>
+            <description>Local Bridge (hkjc_bridge_test)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/hkjc_test_bridge/demo-tr/4986/60</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>aiken</message-vpn>
+            <description>Local Bridge (hkjc_test_bridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/jc-vpn1to2/demo-tr/4986/73</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>jc-vpn1</message-vpn>
+            <description>Local Bridge (jc-vpn1to2)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/kenBridge/demo-tr/4986/74</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>ken</message-vpn>
+            <description>Local Bridge (kenBridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/matbr1/demo-tr/4986/76</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>mat</message-vpn>
+            <description>Local Bridge (matbr1)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/mb/demo-tr/4986/77</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>mat</message-vpn>
+            <description>Local Bridge (mb)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/mb/demo-tr/4986/78</name>
+            <profile>mat</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>mat2</message-vpn>
+            <description>Local Bridge (mb)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/ms_bridge/demo-tr/4987/1</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>ms_vpn</message-vpn>
+            <description>Local Bridge (ms_bridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/nram_remote_bridge/demo-tr/4986/80</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>nram_test1</message-vpn>
+            <description>Local Bridge (nram_remote_bridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/pattersonBridge/demo-tr/4986/72</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>heinzvpn</message-vpn>
+            <description>Local Bridge (pattersonBridge)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/russell_bridge1/demo-tr/4986/81</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>russell_msg_vpn1</message-vpn>
+            <description>Local Bridge (russell_bridge1)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/sumeet2TOsumeetvpn/demo-tr/4986/87</name>
+            <profile>default</profile>
+            <num-subscriptions>2</num-subscriptions>
+            <message-vpn>sumeetvpn</message-vpn>
+            <description>Local Bridge (sumeet2TOsumeetvpn)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/sumeetvpnTOsumeet2/demo-tr/4986/86</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>sumeet2</message-vpn>
+            <description>Local Bridge (sumeetvpnTOsumeet2)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/vpn-bidir-lhr-gib/demo-tr/4986/88</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>vpn-gib</message-vpn>
+            <description>Local Bridge (vpn-bidir-lhr-gib)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/vpn-bidir-lhr-gib/demo-tr/4986/89</name>
+            <profile>b3</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>vpn-lhr</message-vpn>
+            <description>Local Bridge (vpn-bidir-lhr-gib)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/vpnbtb/demo-tr/4986/90</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>vpnbt2</message-vpn>
+            <description>Local Bridge (vpnbtb)</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#bridge/local/wayne/demo-tr/4986/91</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>waynevpn</message-vpn>
+            <description>Local Bridge (wayne)</description>
+          </client>
+          <client>
+            <client-address>151.237.234.149:61654</client-address>
+            <name>#bridge/remote/#CFGSYNC_REPLICATION_BRIDGE/v:emea1/7187/704602</name>
+            <profile>#config-sync</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>#config-sync</message-vpn>
+            <description>Remote Bridge (#CFGSYNC_REPLICATION_BRIDGE)</description>
+          </client>
+          <client>
+            <client-address>151.237.234.149:61657</client-address>
+            <name>#bridge/remote/#MSGVPN_REPLICATION_BRIDGE/v:emea1/7187/704603</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>TNGEMEA1</message-vpn>
+            <description>Remote Bridge (#MSGVPN_REPLICATION_BRIDGE)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49174</client-address>
+            <name>#bridge/remote/BRIDGE_SEND_DATA_FROM_BETA_TO_ALPHA/v:demo-tr/4984/8</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>betaVPN</message-vpn>
+            <description>Remote Bridge (BRIDGE_SEND_DATA_FROM_BETA_TO_ALPHA)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49175</client-address>
+            <name>#bridge/remote/BRIDGE_SEND_DATA_FROM_CALVIN_TO_ALPHA/v:demo-tr/4984/9</name>
+            <profile>default</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>calvin-test-vpn</message-vpn>
+            <description>Remote Bridge (BRIDGE_SEND_DATA_FROM_CALVIN_TO_ALPHA)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49165</client-address>
+            <name>#bridge/remote/BT1toBT2/v:demo-tr/4984/0</name>
+            <profile>btbridging</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>BT1</message-vpn>
+            <description>Remote Bridge (BT1toBT2)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49171</client-address>
+            <name>#bridge/remote/Gaurav.T.Sumeet/v:demo-tr/4984/5</name>
+            <profile>SumeetProfile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>Training_Sumeet</message-vpn>
+            <description>Remote Bridge (Gaurav.T.Sumeet)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49166</client-address>
+            <name>#bridge/remote/SAN_BRG1/v:demo-tr/4984/1</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>SAN_MSG_VPN2</message-vpn>
+            <description>Remote Bridge (SAN_BRG1)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49168</client-address>
+            <name>#bridge/remote/Sree-A-B/v:demo-tr/4984/3</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>SreeVPN-B</message-vpn>
+            <description>Remote Bridge (Sree-A-B)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:52867</client-address>
+            <name>#bridge/remote/bisam/v:demo-tr/4984/737870</name>
+            <profile>sam4</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>sam4</message-vpn>
+            <description>Remote Bridge (bisam)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:54872</client-address>
+            <name>#bridge/remote/brsam1/v:demo-tr/4984/736421</name>
+            <profile>sam2</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>sam2</message-vpn>
+            <description>Remote Bridge (brsam1)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49177</client-address>
+            <name>#bridge/remote/coh-from2coh-to/v:demo-tr/4984/11</name>
+            <profile>coherence_cp</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>coh-rep-from</message-vpn>
+            <description>Remote Bridge (coh-from2coh-to)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49178</client-address>
+            <name>#bridge/remote/coher2ToCoher1/v:demo-tr/4984/12</name>
+            <profile>coherence_cp</profile>
+            <num-subscriptions>3</num-subscriptions>
+            <message-vpn>coherence2</message-vpn>
+            <description>Remote Bridge (coher2ToCoher1)</description>
+          </client>
+          <client>
+            <client-address>127.0.0.1:49180</client-address>
+            <name>#bridge/remote/hansbridge/v:demo-tr/4984/14</name>
+            <profile>bridge-profile</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>hans_pub</message-vpn>
+            <description>Remote Bridge (hansbridge)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49176</client-address>
+            <name>#bridge/remote/hello_bridge/v:demo-tr/4984/10</name>
+            <profile>default</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>calvin-test-vpn2</message-vpn>
+            <description>Remote Bridge (hello_bridge)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49183</client-address>
+            <name>#bridge/remote/hkjc_bridge_test/v:demo-tr/4984/17</name>
+            <profile>sumeet</profile>
+            <num-subscriptions>2</num-subscriptions>
+            <message-vpn>sumeet</message-vpn>
+            <description>Remote Bridge (hkjc_bridge_test)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49173</client-address>
+            <name>#bridge/remote/hkjc_test_bridge/v:demo-tr/4984/7</name>
+            <profile>hkjc_profile</profile>
+            <num-subscriptions>2</num-subscriptions>
+            <message-vpn>lab</message-vpn>
+            <description>Remote Bridge (hkjc_test_bridge)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49182</client-address>
+            <name>#bridge/remote/jc-vpn1to2/v:demo-tr/4984/16</name>
+            <profile>jc</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>jc-vpn2</message-vpn>
+            <description>Remote Bridge (jc-vpn1to2)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49184</client-address>
+            <name>#bridge/remote/matbr1/v:demo-tr/4984/18</name>
+            <profile>mat</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>mat123</message-vpn>
+            <description>Remote Bridge (matbr1)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49185</client-address>
+            <name>#bridge/remote/mb/v:demo-tr/4984/19</name>
+            <profile>mat</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>mat</message-vpn>
+            <description>Remote Bridge (mb)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49181</client-address>
+            <name>#bridge/remote/pattersonBridge/v:demo-tr/4984/15</name>
+            <profile>hans</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>hans_vpn</message-vpn>
+            <description>Remote Bridge (pattersonBridge)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49187</client-address>
+            <name>#bridge/remote/russell_bridge1/v:demo-tr/4984/20</name>
+            <profile>default_bridge_client_profile</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>russell_msg_vpn2</message-vpn>
+            <description>Remote Bridge (russell_bridge1)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49189</client-address>
+            <name>#bridge/remote/sumeet2TOsumeetvpn/v:demo-tr/4984/21</name>
+            <profile>default</profile>
+            <num-subscriptions>2</num-subscriptions>
+            <message-vpn>sumeet2</message-vpn>
+            <description>Remote Bridge (sumeet2TOsumeetvpn)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.61:49190</client-address>
+            <name>#bridge/remote/vpn-bidir-lhr-gib/v:demo-tr/4984/22</name>
+            <profile>b3</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>vpn-gib</message-vpn>
+            <description>Remote Bridge (vpn-bidir-lhr-gib)</description>
+          </client>
+          <client>
+            <client-address>192.168.130.161:49152</client-address>
+            <name>#config-sync/demo-tr</name>
+            <profile>#config-sync</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>#config-sync</message-vpn>
+            <description></description>
+          </client>
+          <client>
+            <client-address>89.21.226.194:60496</client-address>
+            <name>TDSAPP01/3812/#00000001</name>
+            <profile>IMeta_Profile</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>iMeta</message-vpn>
+            <description></description>
+          </client>
+          <client>
+            <client-address>89.21.226.194:54317</client-address>
+            <name>TDSAPP02/6060/#000c0001</name>
+            <profile>IMeta_Profile</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>iMeta</message-vpn>
+            <description></description>
+          </client>
+          <client>
+            <client-address>38.121.165.210:8414</client-address>
+            <name>nycsrsperf/22691/#00030001</name>
+            <profile>codestreet_profile</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>codestreet</message-vpn>
+            <description></description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41677</client-address>
+            <name>solcache-demo/3283/#00010001</name>
+            <profile>BT</profile>
+            <num-subscriptions>6</num-subscriptions>
+            <message-vpn>BT</message-vpn>
+            <description>ben's distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41665</client-address>
+            <name>solcache-demo/3284/#00010001</name>
+            <profile>cache</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tsystems1</message-vpn>
+            <description>tsystems's (ben) distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41678</client-address>
+            <name>solcache-demo/3285/#00010001</name>
+            <profile>Sberbank</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Sberbank</message-vpn>
+            <description>Wberbank distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:44711</client-address>
+            <name>solcache-demo/3286/#00010001</name>
+            <profile>default</profile>
+            <num-subscriptions>2</num-subscriptions>
+            <message-vpn>orc</message-vpn>
+            <description>orc's distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:44712</client-address>
+            <name>solcache-demo/3287/#00010001</name>
+            <profile>default</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>bccgroup</message-vpn>
+            <description>BCC distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41676</client-address>
+            <name>solcache-demo/3288/#00010001</name>
+            <profile>cache</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tsystems1</message-vpn>
+            <description>tsystems's (ben) distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41672</client-address>
+            <name>solcache-demo/3289/#00010001</name>
+            <profile>mat</profile>
+            <num-subscriptions>7</num-subscriptions>
+            <message-vpn>mat</message-vpn>
+            <description>mat's distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41664</client-address>
+            <name>solcache-demo/3290/#00010001</name>
+            <profile>bluecrest</profile>
+            <num-subscriptions>1</num-subscriptions>
+            <message-vpn>bluecrest</message-vpn>
+            <description>bluecrest's distributed cache for the demo net</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41679</client-address>
+            <name>solcache-demo/3291/#00010001</name>
+            <profile>hans</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hans_vpn</message-vpn>
+            <description>SolCache for hans_vpn</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:41663</client-address>
+            <name>solcache-demo/3292/#00010001</name>
+            <profile>default</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dss_gate</message-vpn>
+            <description>LSE dss distributed cache for the integration network</description>
+          </client>
+          <client>
+            <client-address>192.168.130.9:44713</client-address>
+            <name>solcache-demo/3293/#00010001</name>
+            <profile>cache</profile>
+            <num-subscriptions>7</num-subscriptions>
+            <message-vpn>tsystems1</message-vpn>
+            <description>tsystems's (ben) distributed cache for the demo net</description>
+          </client>
+        </primary-virtual-router>
+        <internal-virtual-router>
+          <client>
+            <client-address>127.55.55.55:1</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>default</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:2</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>AIM</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:3</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>AMDOCS</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:4</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>AMEX</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:5</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Akuna</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:6</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>AndrewB_VPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:7</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BAML</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:8</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BMO</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:9</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BNYConvergex</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:10</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BT</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:11</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BT1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:12</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BT2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:13</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BT3</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:14</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BVC</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:15</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BankingDemo</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:16</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Basho</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:17</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CANDA</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:18</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CATENA_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:19</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CIBC</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:20</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CPPIB</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:21</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CP_VPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:22</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CS_VPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:23</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Citihub1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:24</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Citihub2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:25</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Citihub3</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:26</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Citihub4</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:27</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Citihub5</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:28</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Curex</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:29</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Daen</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:30</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Dion</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:31</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>EPSON</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:32</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>EPS_VPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:33</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ESG</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:34</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>FLXBUS</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:35</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>FTT</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:36</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>GBM</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:37</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>GCC</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:38</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>GoldenGate</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:39</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>HEINZTEST</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:40</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>HKJCTraining</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:41</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Heinz_BW</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:42</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>IBMDP</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:43</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>IDC</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:44</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>IDCIntegration</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:45</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>IMC</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:46</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>IWAY</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:47</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>IWI</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:48</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Infinium_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:49</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>JPMC_Jay_LDAP</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:50</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Japan</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:51</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>MGMT</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:52</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>MK</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:53</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>MikeOb_testVPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:54</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Murex</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:55</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>NADEX</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:56</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>NTrust</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:57</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Nastel_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:58</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ORACLE</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:59</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>OX</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:60</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Peak6</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:61</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>QUICK</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:62</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>RBC_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:63</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>RCG</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:64</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>RCP</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:65</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Rep_VPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:66</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SANJAY</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:67</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SAN_MSG_VPN1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:68</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SAN_MSG_VPN2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:69</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SAS</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:70</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SBI</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:71</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SCSK</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:72</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SOL_DP_Integration</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:73</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Sberbank</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:74</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SkyWave</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:75</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SreeVPN-A</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:76</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>SreeVPN-B</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:77</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>StoboREST_VPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:78</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>StoredProcedure</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:79</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TCS_VPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:80</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TD_Saleem</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:81</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TFT</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:82</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TNGEMEA1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:83</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TNGNAM1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:84</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TNGNAM2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:85</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TRNG_Trading-B2B</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:86</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TSX_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:87</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TWF_1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:88</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TelNorm</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:89</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Test</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:90</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TickTrade</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:91</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Toshiba</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:92</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TradeGate</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:93</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>TradeStation</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:94</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Training</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:95</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Training_Gaurav</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:96</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>Training_Sumeet</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:97</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>U1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:98</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>VPN-1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:99</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>VPN1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:100</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>VPN2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:101</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>VPN3</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:102</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>WSO2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:103</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>WellsFargo</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:104</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>XRTrading</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:105</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>aaron</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:106</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>abc_airlines</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:107</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>accival</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:108</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>acme_us_atp_prod</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:109</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>adaptris1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:110</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>adroitlogic</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:111</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>agies1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:112</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>agilesde</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:113</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>aiken</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:114</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>alphaVPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:115</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>amdocs_kc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:116</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>angela</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:117</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>apple_ca</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:118</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>apple_nc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:119</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>apple_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:120</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>aspone1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:121</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>att</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:122</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>att_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:123</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ayers</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:124</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>azure</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:125</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>banamex</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:126</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>barchart</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:127</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>bccgroup</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:128</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>bccgroup2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:129</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>benvpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:130</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>betaVPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:131</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>bhaig</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:132</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>blackthorne</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:133</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>blakedair</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:134</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>bluecrest</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:135</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>bnpp1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:136</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>boronia</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:137</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>brilliance</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:138</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>brunel</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:139</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>bwin1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:140</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>calvin-test-vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:141</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>calvin-test-vpn2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:142</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>calypso</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:143</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>camel</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:144</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>camerontec</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:145</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>caml1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:146</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>cap_iq</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:147</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>capital_taiwan</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:148</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>cba</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:149</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>charthouse</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:150</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>chatter-test</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:151</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>cib</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:152</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>citadel</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:153</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>citi</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:154</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>cloudsoft_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:155</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>codestreet</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:156</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>cogcap</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:157</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>cognizant</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:158</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>coh-rep-from</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:159</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>coh-rep-to</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:160</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>coherence1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:161</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>coherence2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:162</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>colljos</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:163</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>commerzbank</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:164</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>connamara</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:165</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>crabel</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:166</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>creditsuisse</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:167</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>csc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:168</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ctc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:169</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>curl-vpn1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:170</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>d1thai</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:171</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>daen</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:172</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dale</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:173</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>datanomics</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:174</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>datanomics2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:175</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>db</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:176</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dbpower_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:177</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>demo</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:178</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>deutsche-bank</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:179</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>digitalchina</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:180</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dishant</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:181</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dispensable</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:182</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dmckay</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:183</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dmitri</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:184</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>dss_gate</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:185</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ebay</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:186</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ebs</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:187</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>eprod</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:188</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>equiduct</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:189</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>eugene</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:190</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>exegy</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:191</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>fidelity</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:192</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>finiq</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:193</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>forumsys</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:194</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>gbm_redlinebridge</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:195</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>gbm_redlinebridge2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:196</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>gfi_poc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:197</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>gigaspaces</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:198</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>gjw</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:199</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>glomidco1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:200</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>goldman</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:201</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>greenhat</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:202</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>gs1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:203</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hBarcapPractise</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:204</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hans_pub</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:205</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hans_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:206</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>harris</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:207</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hbk</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:208</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>heinzCIBC</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:209</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>heinzGG</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:210</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>heinzvpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:211</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hetco</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:212</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hsbc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:213</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hsbc1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:214</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>hsieh</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:215</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>humans</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:431</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>iMeta</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:217</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ibm_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:218</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>idexx</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:219</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>idx</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:220</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ifis</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:221</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>infosys</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:222</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>intelliware</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:223</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>intuit_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:224</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ipctest</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:225</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>itrs</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:226</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>javelincm</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:227</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jc-vpn1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:228</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jc-vpn2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:229</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jet</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:230</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>joan</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:231</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jpmc1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:232</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jpmcweb</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:233</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jpmeq1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:234</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jpmorgan</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:235</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>jptdd_poc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:236</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>kbarr</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:237</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>kcs</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:238</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ken</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:239</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>kov</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:240</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lab</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:241</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lab49</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:242</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>layer7vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:243</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lgim1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:244</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lgim2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:245</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lgim3</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:246</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lgim4</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:247</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>liquidnet_poc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:248</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>logmein1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:249</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lps</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:250</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lse</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:251</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>lta-demo</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:252</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>manu</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:253</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>marketprizm</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:254</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mat</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:255</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mat123</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:256</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mat2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:257</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>matTest</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:258</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>matsuki</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:259</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mckay</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:260</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mcobject</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:261</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mds_jms_integration</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:262</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mds_mule</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:263</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mdxt</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:264</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mexder</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:265</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mh</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:266</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>micex</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:268</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mitre</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:269</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mitrefaapoc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:270</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mizuho1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:272</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>morgan</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:273</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mqb_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:277</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ms_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:278</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mule</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:279</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mule_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:280</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mulesoft</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:281</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mussett</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:282</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nasdaq-omx</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:283</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nastel</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:284</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nastel2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:285</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ncs</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:286</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>neeve</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:287</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>netas</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:288</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>netent1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:289</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>newMat</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:290</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nm1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:291</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nolanvpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:292</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nram_remote</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:293</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nram_secure</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:294</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>nram_test1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:295</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ogg_trading</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:296</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>onepool_5</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:297</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>onepool_6</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:298</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>onepool_7</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:299</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>openbet</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:300</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>oraclegg</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:301</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>orangelab</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:302</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>orc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:303</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>paypal_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:304</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>pb</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:305</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>pico</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:306</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>pmti</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:307</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>pocketkings</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:308</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>proquote</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:309</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>protobuf</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:310</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>pysol_test</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:311</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>qcm1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:312</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rai</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:313</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rbc</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:314</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rbc_bb_int_v</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:315</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rbc_bb_int_v2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:316</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rbc_dev</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:317</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rbs</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:318</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>redbridge_mike</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:319</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>redline</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:320</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>roshan</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:321</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rtview</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:322</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>rulefinancial1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:323</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>russell_msg_vpn1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:324</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>russell_msg_vpn2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:325</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sam1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:326</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sam2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:327</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sanjeevVPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:328</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sapOSGi</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:329</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sap_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:330</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sb_idcintegration_dev</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:331</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sb_marketq_dev</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:332</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sb_proxy_dev</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:333</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sb_radius_dev</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:334</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sberbankcib</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:335</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>schwab</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:336</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>scotiabank</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:337</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>scott</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:338</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>securboration</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:339</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>securitas</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:340</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>seeburger</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:341</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>semp2es</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:342</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>serisysvpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:343</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>shrikanth_dev1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:344</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sigma</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:345</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sigvpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:346</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>smartfactory</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:347</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>smartguru</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:348</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>smu_cap</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:349</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>solace</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:350</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>spotex</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:351</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sprint</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:352</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sqlstream</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:353</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>squarepoint</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:354</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>streambase</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:355</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sumeet</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:356</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sumeet2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:357</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sumeetvpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:358</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sungard</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:359</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>syscom_test</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:360</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>systex_test</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:361</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tc_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:362</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>td</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:363</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>techsource</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:364</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>teekay</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:365</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>telco-c360</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:366</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>test-ibm</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:367</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>test1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:368</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>testVPN</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:369</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tf</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:370</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>townsendvpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:371</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tradestation</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:372</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tradeweb</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:373</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tradition</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:374</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tradition_uk1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:375</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tradition_uk2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:376</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>training01</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:377</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>training_citi</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:378</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>training_vpn_kor</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:379</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>triton</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:380</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>trueex</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:381</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>tsystems1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:382</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ubs</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:383</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ullink</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:384</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>unibet1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:385</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>up</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:386</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>visa</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:387</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>vitcom</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:388</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>vontobel1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:389</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>vpn-gib</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:390</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>vpn-lhr</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:391</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>vpnbt1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:392</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>vpnbt2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:393</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>war</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:394</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>was</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:395</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wayneldap</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:396</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>waynevpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:397</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>web-messaging</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:398</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>webank</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:399</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>weblogicVpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:400</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>weblogic_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:401</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wenger</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:402</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>west</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:403</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wf</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:404</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>winway_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:405</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wls_tw</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:406</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wolve</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:407</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wonders</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:408</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wooin</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:409</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>wotio_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:410</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>xchanging</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:411</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>xing</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:412</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>yuanta_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:413</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>#config-sync</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:414</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mhilmen</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:416</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mhilmen_cli</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:417</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CIMB1</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:418</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>CIMB2</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:419</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>caplin</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:420</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mhilmen_rest</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:422</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>temp_rbc_training_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:423</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>shalinsolace</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:424</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>ms_bridged_vpn</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:425</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>BanqueNationale</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:426</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sam3</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:428</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>sam4</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:432</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>mlp</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>127.55.55.55:433</client-address>
+            <name>#client</name>
+            <profile>#client-profile</profile>
+            <num-subscriptions>5</num-subscriptions>
+            <message-vpn>datameer</message-vpn>
+            <description>Internal Message Bus</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#rdp/Saleem</name>
+            <profile>TD_Profile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>TD_Saleem</message-vpn>
+            <description>REST delivery point</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#rdp/demo_rdp</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>war</message-vpn>
+            <description>REST delivery point</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#rdp/heinzToNodeRed</name>
+            <profile>restProfile</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>heinzvpn</message-vpn>
+            <description>REST delivery point</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#rdp/rest_demo_rdp</name>
+            <profile>default</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>amdocs_kc</message-vpn>
+            <description>REST delivery point</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#rdp/stobo_rdp</name>
+            <profile>stobo</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>StoboREST_VPN</message-vpn>
+            <description>REST delivery point</description>
+          </client>
+          <client>
+            <client-address>N/A</client-address>
+            <name>#rdp/trades_rdp</name>
+            <profile>waynevpn</profile>
+            <num-subscriptions>0</num-subscriptions>
+            <message-vpn>waynevpn</message-vpn>
+            <description>REST delivery point</description>
+          </client>
+        </internal-virtual-router>
+      </client>
+    </show>
+  </rpc>
+<execute-result code="ok"/>
+</rpc-reply>

@@ -1,0 +1,9 @@
+<rpc-reply semp-version="soltr/7_2VMR">
+  <rpc>
+    <show>
+      <client>
+      </client>
+    </show>
+  </rpc>
+<execute-result code="ok"/>
+</rpc-reply>
